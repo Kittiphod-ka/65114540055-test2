@@ -1,0 +1,6 @@
+<h1>course list</h1>
+<ul>
+    {% for course in courses %}
+    <li>course ID:{{ course.id }}, course Name:{{ course.name }}</li>
+    {% endfor %}
+</ul>
